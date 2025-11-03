@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿// Espacio de nombres donde se agrupan las clases de la capa de entidad (modelo de datos).
+// Espacio de nombres donde se agrupan las clases de la capa de entidad (modelo de datos).
 namespace capaEntidad
 {
     // Clase que representa la entidad "Cliente" dentro del sistema.
@@ -18,16 +17,5 @@ namespace capaEntidad
 
         // Propiedad que almacena la ruta o referencia de la foto del cliente.
         public string? Foto { get; set; }
-=======
-﻿namespace capaEntidad
-{
-    public class CEClientes
-    {
-        public int Id { get; set; }
-        public string? Nombre { get; set; }
-        public string? Apellido { get; set; }
-        public string? Foto { get; set; }
-
->>>>>>> 61246a6a105bd9b038391f074f85cbb19d887f43
     }
 }
